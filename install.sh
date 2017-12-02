@@ -18,13 +18,13 @@ sudo chown -R pi:www-data /var/www/html/
 sudo chmod -R 770 /var/www/html/
 
 #PHP
-sudo apt-get install -y php5 libapache2-mod-php5 php5-intl php5-mcrypt php5-curl php5-gd php5-sqlite
+sudo apt-get install -y php5 libapache2-mod-php5 libcurl3 php5-intl php5-mcrypt php5-curl php5-gd php5-sqlite
 
 #MySQL
 sudo apt-get install -y mysql-server mysql-client php5-mysql
 
 #DNS Server
-apt-get -y install bind9
+#apt-get -y install bind9
 
 #Install Phpmyadmin 
 sudo aptitude install -y phpmyadmin
